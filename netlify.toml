@@ -1,3 +1,7 @@
+# Build: command et répertoire de publication (Gatsby génère static dans public/)
+# Si le deploy échoue avec "Command was cancelled" après un build réussi :
+# → Désactiver le plugin "Essential Gatsby" dans Netlify :
+#   Site → Build & deploy → Build plugins → Désactiver "Essential Gatsby"
 [build]
   publish = "public"
   command = "npm run build"
